@@ -1,0 +1,95 @@
+html{
+   --maincolor:#c95119;
+}
+.text-mainColor{
+    color:var(--maincolor);
+}
+body{
+    height: 6000px;
+    background-image: url(../img/ground.jpg);
+    
+}
+.header{
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+}
+.navbar-dark .navbar-nav li:first-child a{
+    color: var(--maincolor);
+}
+
+.list-hover:hover{
+    color: var(--maincolor);
+    font-weight: 500;
+}
+.icon{
+    /* background-color: #c95119; */
+    width: 18%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-hover:hover{
+    color: rgb(219, 205, 205);
+}
+.link{
+    display: block;
+}
+.header .icon i{
+    border: 1px solid rgb(209, 149, 101);
+    transition: all 0.4s;
+}
+.header .icon i:hover{
+    color: var(--maincolor);
+    border-color: #ffffff;
+    cursor: pointer;
+}
+/* ------------------------ */
+.title h2{
+    /* background-color: aqua; */
+    font-size: 50px;
+    opacity: 0.1;
+
+}
+.title h3{
+     /* background-color: #c95119; */
+}
+
+/* start services */
+.services{
+    background-image: url(../img/back2.jpg);
+    background-size:cover;
+}
+.services{
+    color: #ada3a3;
+}
+.services-item h4{
+    position: relative;
+}
+.services-item h4:after{
+    content: '';
+    background-color:var(--maincolor);
+    position: absolute;
+    top: 30px;
+    /* او التحكم في اللفت والودث من خلال البكسل  */
+    left: 40%;
+    width: 20%;
+    height: 3px;
+}
+/* end services */
+
+
+/* start */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--maincolor);
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    font-weight: 600;
+    border: 0;
+}
+.ccc{
+    background-size: cover;
+}
+/* end */
